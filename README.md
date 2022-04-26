@@ -14,7 +14,7 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 > Desenvolver o software de maneira bem explicada até no back-end
 * Colaboração com o cliente vale mais do que o contrato.
 * Responder as mudanças vale mais do que seguir o plano.
-> Não pular etapas
+> Não pular etapas<br />
 > Nosso plano também tem que ser menor e melhor planejado
 
 #### Princípios
