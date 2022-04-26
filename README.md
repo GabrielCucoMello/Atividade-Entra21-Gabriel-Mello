@@ -31,6 +31,8 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 
 # Scrum
 
+![Processo Scrum](https://i2.wp.com/mindmaster.com.br/wp-content/uploads/2014/06/Scrum-Process1.png?fit=640%2C329)
+
 ### Pilares
 
 * Transparência.
@@ -76,7 +78,41 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 > Todos são de igual pra igual.
 
 1. Scrum Master
+> Pessoa com maior conhecimento do time que lidera o projeto.
 2. Product Owner
 > Representante do cliente dentro do projeto.
 3. Developer
-> time de desenvolvedores.
+> Time de desenvolvedores.
+
+# Kanban
+> Um pra cada indivíduo
+
+![Processo Kanban](https://artia.com/wp-content/uploads/2019/01/2-kanban-fazer-fazendo-feito.png)
+
+1. Backlog
+> Basicamente idêntico a uma Sprint, as ideias do projeto.
+2. A fazer
+> Tarefas que serão feitas<br />
+> Necessário julgar se realmente irá ser feito
+
+### Princípios Kanban
+
+1. A fazer apenas aquilo que eu vou fazer agora
+> Priorizar os mais rápidos
+2. Respeite o processo atual, os papéis e as responsabilidades
+3. Concorde em buscar mudanças incrementais evolutivas
+4. Incentive atos de liderança em todos os níveis
+5. Boas práticas, analizar o fluxo de todas as pessoas
+6. Gerenciar o fluxo de trabalho, não as pessoas
+7. Limitar o trabalho em andamento
+8. Tornar as políticas do processo bem explicadas
+9. Feedbacks constantes
+10. Melhore de forma colaborativa
+
+### Benefícios do método
+
+1. Gestão visual
+2. Simples
+3. Acesso a informação
+4. Priorização
+5. Facilidade no fluxo de trabalho
