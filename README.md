@@ -5,9 +5,9 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 
 [Formatação de readme.md Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 
-## Valores e Princípios da Programação
+# Valores e Princípios da Programação
 
-#### Valores
+### Valores
 > São dados como tipos de Leis.
 
 * Software funcionando vale mais do que documentação abrangente.
@@ -17,7 +17,7 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 > Não pular etapas<br />
 > Nosso plano também tem que ser menor e melhor planejado
 
-#### Princípios
+### Princípios
 > Opicionais, mas vale a pena serem seguidos
 
 * Satisfazer o cliente.
@@ -29,9 +29,9 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 * Pessoas relacionadas ao negócio e ao desenvolvimento não podem trabalhar junos, só devem ser interligados na hora da entrega ou para questionamento eventuais.
 * Simplicidade é a arte de maximizar a quantidade de trabalho não feito.
 
-## Scrum
+# Scrum
 
-#### Pilares
+### Pilares
 
 * Transparência.
 > Associada com clareza (documentar o código).
@@ -40,7 +40,7 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 * Adaptação.
 > Ser passivo de se adaptar aos outros.
 
-#### Valores
+### Valores
 
 * Coragem
 > Não pensar muito na perfeição e postar seus códigos, ter coragem para fazer as coisas certas
@@ -51,7 +51,7 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 * Abertura
 > Abertura e transparência entre todas as partes relacionadas
 
-#### Eventos do Scrum
+### Eventos do Scrum
 
 1. Sprint
 > Caixa de tempo (o que a gente precisa para o projeto).
@@ -64,7 +64,7 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 5. Sprint Retrospective
 > Reunião para a discussão do que precisa ser melhorado ou removido.
 
-#### Artefatos
+### Artefatos
 
 1. Backlog
 > Todo o produto.
@@ -72,7 +72,7 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 > 2 a 3 dias para conclusão de cada Sprint.
 3. Incremento
 
-#### Pessoas
+### Pessoas
 > Todos são de igual pra igual.
 
 1. Scrum Master
