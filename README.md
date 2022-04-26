@@ -51,3 +51,6 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 * Abertura
 - Abertura e transparência entre todas as partes relacionadas
 
+#### Eventos do Scrum
+
+
