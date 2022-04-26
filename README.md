@@ -53,4 +53,30 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 
 #### Eventos do Scrum
 
+1. Sprint
+> Caixa de tempo (o que a gente precisa para o projeto).
+2. Sprint Planning
+> Planejar este tempo.
+3. Daily Scrum
+> Reunião diária para alinhamento do time.
+4. Sprint Review
+> Apresentação aos interssados do que já foi desenvolvido dentro das sprints.
+5. Sprint Retrospective
+> Reunião para a discussão do que precisa ser melhorado ou removido.
 
+#### Artefatos
+
+1. Backlog
+> Todo o produto.
+2. Backlog Sprint
+> 2 a 3 dias para conclusão de cada Sprint.
+3. Incremento
+
+#### Pessoas
+> Todos são de igual pra igual.
+
+1. Scrum Master
+2. Product Owner
+> Representante do cliente dentro do projeto.
+3. Developer
+> time de desenvolvedores.
