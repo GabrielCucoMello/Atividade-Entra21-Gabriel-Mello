@@ -8,20 +8,20 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 ## Valores e Princípios da Programação
 
 #### Valores
-- São dados como tipos de Leis.
+[^1]: São dados como tipos de Leis.
 
 * Software funcionando vale mais do que documentação abrangente.
-- Desenvolver o software de maneira bem explicada até no back-end
+[^1]: Desenvolver o software de maneira bem explicada até no back-end
 * Colaboração com o cliente vale mais do que o contrato.
 * Responder as mudanças vale mais do que seguir o plano.
-- Não pular etapas
-- Nosso plano também tem que ser menor e melhor planejado
+[^1]: Não pular etapas
+[^2]: Nosso plano também tem que ser menor e melhor planejado
 
 #### Princípios
-- Opicionais, mas vale a pena serem seguidos
+[^1]: Opicionais, mas vale a pena serem seguidos
 
 * Satisfazer o cliente.
-- Entrega adiantada e continua
+[^1]: Entrega adiantada e continua
 * Quem determina o prazo é o desenvolvedor.
 * Caso o "job" não seguir os princípios, não aceite-o.
 * Aceitar mudanças na entrega do produto e cobrar por mais horas trabalhadas.
@@ -34,22 +34,22 @@ Atividade criada com finalidade de documentar tudo que fora aprendido durante a 
 #### Pilares
 
 * Transparência.
-- Associada com clareza (documentar o código).
+[^1]: Associada com clareza (documentar o código).
 * Inspeção.
-- Os artefatos e os trabalhos devem ser inspecionados pelos outros membros da equipe.
+[^1]: Os artefatos e os trabalhos devem ser inspecionados pelos outros membros da equipe.
 * Adaptação.
-- Ser passivo de se adaptar aos outros.
+[^1]: Ser passivo de se adaptar aos outros.
 
 #### Valores
 
 * Coragem
-- Não pensar muito na perfeição e postar seus códigos, ter coragem para fazer as coisas certas
+[^1]: Não pensar muito na perfeição e postar seus códigos, ter coragem para fazer as coisas certas
 * Foco
 * Comprometimento
 * Respeito
-- Respeitar a opinião do outro e respeitar o custo do projeto e mantê-lo baixo
+[^1]: Respeitar a opinião do outro e respeitar o custo do projeto e mantê-lo baixo
 * Abertura
-- Abertura e transparência entre todas as partes relacionadas
+[^1]: Abertura e transparência entre todas as partes relacionadas
 
 #### Eventos do Scrum
 
