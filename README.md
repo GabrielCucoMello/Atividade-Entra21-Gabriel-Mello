@@ -1,6 +1,9 @@
 # Atividade-entra21-Gabriel-Mello
 Atividade criada com finalidade de documentar tudo que fora aprendido durante a progressão do curso
 
+### Minicurrículo:
+Sou Gabriel Cuco Mello, tenho 18 anos, sou de São João Batista, Santa Catarina, trabalhei por um ano como Ajudante de CAD e atualmente sou Expeditor de Calçados na Sara Cristina Calçados.
+
 ### O que o projeto do Entra21 faz?<br />
 O Programa é dirigido a jovens a partir de 16 anos de idade e adultos, que residam em Santa Catarina, que estejam cursando ou concluído o ensino médio ou superior. O programa atende também pessoas com deficiência e imigrantes que objetivam colocação no mercado de trabalho de qualidade.<br />
 Os cursos em linguagem de programação têm carga horária de até 480 horas quando incluem o ensino de idioma estrangeiro e duração de 6 meses. Os alunos formados pelo Entra21-Blusoft alcançam altos índices de empregabilidade entre as empresas de TIC.<br />
@@ -15,7 +18,21 @@ O projeto ajuda o aluno a entrar no mercado da programação, o dando a especial
 ### Onde os usuários podem obter ajuda com seu projeto?<br />
 
 ### Quem mantém e contribui com o projeto?<br />
-
+* Fapesc
+* Prefeitura de Blumenau
+* Governo de Santa Catarina
+* Blusoft
+* AmbevTec
+* Central Ailos
+* Capgemini
+* Datainfo
+* Philips
+* Senior
+* T Systems
+* Unifique
+* Warren
+* NSC TV
+* Evolke
 
 [Formatação de readme.md GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
