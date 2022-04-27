@@ -1,6 +1,22 @@
 # Atividade-entra21-Gabriel-Mello
 Atividade criada com finalidade de documentar tudo que fora aprendido durante a progressão do curso
 
+### O que o projeto do Entra21 faz?<br />
+O Programa é dirigido a jovens a partir de 16 anos de idade e adultos, que residam em Santa Catarina, que estejam cursando ou concluído o ensino médio ou superior. O programa atende também pessoas com deficiência e imigrantes que objetivam colocação no mercado de trabalho de qualidade.<br />
+Os cursos em linguagem de programação têm carga horária de até 480 horas quando incluem o ensino de idioma estrangeiro e duração de 6 meses. Os alunos formados pelo Entra21-Blusoft alcançam altos índices de empregabilidade entre as empresas de TIC.<br />
+O treinamento é intensivo, com especializações de 480 horas-aula, em aulas diárias (presenciais ou online) de meio período até 6 meses, em linguagens de programação e demais especializações, incluindo o ensino de idioma estrangeiro (Inglês), Empreendedorismo e Inovação, Desenvolvimento Humano e Contabilidade e Finanças.
+
+### Por que o projeto é útil?<br />
+O projeto ajuda o aluno a entrar no mercado da programação, o dando a especialização e a experiência necessária agregando ao seu currículo mais bagagem ao aluno para conseguir um trabalho nesta área.
+
+### Como os usuários podem começar a usar o projeto?<br />
+É simples, apenas entrar no site do [Entra21](https://www.entra21.com.br) e acessar a aba inscreva-se, para poder concorrer a uma vaga do curso.
+
+### Onde os usuários podem obter ajuda com seu projeto?<br />
+
+### Quem mantém e contribui com o projeto?<br />
+
+
 [Formatação de readme.md GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 [Formatação de readme.md Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
