@@ -107,6 +107,9 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 3. Developer;<br />
 *Time de desenvolvedores.*
 
+## Daily Scrum (Reunião)
+![Reunião Scrum](https://imgur.com/gallery/2h9sVp6)
+
 # Kanban
 *Um pra cada indivíduo.*
 
