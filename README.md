@@ -21,21 +21,7 @@ Através do Telegram podendo sanar dúvidas com o professor ou entrar em contato
 *47 9 9602-0064 - Débora (whatsapp)*
 
 ### Quem mantém e contribui com o projeto?<br />
-* Fapesc
-* Prefeitura de Blumenau
-* Governo de Santa Catarina
-* Blusoft
-* AmbevTec
-* Central Ailos
-* Capgemini
-* Datainfo
-* Philips
-* Senior
-* T Systems
-* Unifique
-* Warren
-* NSC TV
-* Evolke
+Uma série de empresas que podem ser encontradas na área de Investidores no site do [Entra21](https://www.entra21.com.br)
 
 #
 [Formatação de readme.md GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
