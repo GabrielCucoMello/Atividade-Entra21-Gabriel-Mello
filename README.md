@@ -13,9 +13,12 @@ O treinamento é intensivo, com especializações de 480 horas-aula, em aulas di
 O projeto ajuda o aluno a entrar no mercado da programação, o dando a especialização e a experiência necessária agregando ao seu currículo mais bagagem ao aluno para conseguir um trabalho nesta área.
 
 ### Como os usuários podem começar a usar o projeto?<br />
-É simples, apenas entrar no site do [Entra21](https://www.entra21.com.br) e acessar a aba inscreva-se, para poder concorrer a uma vaga do curso.
+Podem atender as aulas por meio do Google Meet ou Microsoft Teams enviado pelo email, após a confirmação da participação no site, aí começar a fazer as aulas.
 
 ### Onde os usuários podem obter ajuda com seu projeto?<br />
+Através do Telegram podendo sanar dúvidas com o professor ou entrar em contato via **whatsapp** com os coordenadores.<br />
+*47 3222-1904 - João (whatsapp)<br/>*
+*47 9 9602-0064 - Débora (whatsapp)*
 
 ### Quem mantém e contribui com o projeto?<br />
 * Fapesc
