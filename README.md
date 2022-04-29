@@ -113,7 +113,7 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 # Kanban
 *Um pra cada indivíduo.*
 
-![Processo Kanban](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftargetteal.com%2Fpt%2Fblog%2Fmetodo-kanban%2F&psig=AOvVaw315dRYSjkcnnocf_6kPL1H&ust=1651356704282000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPjW2KCluvcCFQAAAAAdAAAAABAD)
+![Processo Kanban](https://artia.com/wp-content/uploads/2019/01/2-kanban-fazer-fazendo-feito.png)
 
 1. Backlog;<br />
 *Basicamente idêntico a uma Sprint, as ideias do projeto.*
