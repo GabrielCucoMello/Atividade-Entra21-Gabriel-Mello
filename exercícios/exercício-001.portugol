@@ -1,4 +1,5 @@
 Parte 1
+Representação da ÁREA de um RETÂNGULO em CENTÍMETROS
 
 programa {
   funcao inicio() 
@@ -19,4 +20,40 @@ programa {
 }
 
 Parte 2
+Representação da ÁREA de um TERRENO em METROS QUADRADOS
 
+programa {
+  funcao inicio() 
+  {
+    real lateral, frente, mult
+    
+    escreva("Informe a frente da sua terra em metros: ")
+    leia(frente)
+
+    escreva("Informe a lateral da sua terra em metros: ")
+    leia(lateral)
+
+    mult = frente * lateral
+
+    se (mult < 1000)
+    {
+    escreva("\nA área da sua terra é de ", mult, (" metros quadrados, sendo considerada um TERRENO")
+    }
+
+    senao se (mult <= 5000)
+    {
+    escreva("\nA área da sua terra é de ", mult, (" metros quadrados, sendo considerada um SÍTIO")
+    }
+
+    senao se (mult <= 10000)
+    {
+    escreva("\nA área da sua terra é de ", mult, (" metros quadrados, sendo considerada um HECTARE DE TERRA")
+    }
+
+    senao se (mult > 10000)
+    {
+    escreva("\nA área da sua terra é de ", mult, (" metros quadrados, sendo considerada uma FAZENDA")
+    }
+
+  }
+}
