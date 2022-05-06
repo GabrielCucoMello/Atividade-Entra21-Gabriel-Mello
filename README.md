@@ -8,6 +8,8 @@ Sou Gabriel Cuco Mello, tenho 18 anos, sou de São João Batista, Santa Catarina
 O Programa é dirigido a jovens a partir de 16 anos de idade e adultos, que residam em Santa Catarina, que estejam cursando ou concluído o ensino médio ou superior. O programa atende também pessoas com deficiência e imigrantes que objetivam colocação no mercado de trabalho de qualidade.<br />
 Os cursos em linguagem de programação têm carga horária de até 480 horas quando incluem o ensino de idioma estrangeiro e duração de 6 meses. Os alunos formados pelo Entra21-Blusoft alcançam altos índices de empregabilidade entre as empresas de TIC.<br />
 O treinamento é intensivo, com especializações de 480 horas-aula, em aulas diárias (presenciais ou online) de meio período até 6 meses, em linguagens de programação e demais especializações, incluindo o ensino de idioma estrangeiro (Inglês), Empreendedorismo e Inovação, Desenvolvimento Humano e Contabilidade e Finanças.
+<!--adicionar talvez o que o projeto me traz de util pra minha vida-->
+
 
 ### Por que o projeto é útil?<br />
 O projeto ajuda o aluno a entrar no mercado da programação, o dando a especialização e a experiência necessária agregando ao seu currículo mais bagagem ao aluno para conseguir um trabalho nesta área.
@@ -144,3 +146,5 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 5. Facilidade no fluxo de trabalho;
 
 [Banco de dados do Inpe](http://bancodedados.cptec.inpe.br/)
+
+[] [lógica-comer-pizza]
