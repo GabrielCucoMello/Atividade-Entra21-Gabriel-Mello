@@ -1,0 +1,22 @@
+Parte 1
+
+programa {
+  funcao inicio() 
+  {
+    inteiro altura, base, mult
+    
+    escreva("Digite a base do retângulo em centímetros: ")
+    leia(base)
+
+    escreva("Digite a altura do retângulo em centímetros: ")
+    leia(altura)
+
+    mult = base * altura
+
+    escreva("\nA área do retângulo é ", mult, (" centímetros")
+
+  }
+}
+
+Parte 2
+
