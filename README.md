@@ -147,4 +147,4 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 
 [Banco de dados do Inpe](http://bancodedados.cptec.inpe.br/)
 
-[] [lógica-comer-pizza]
+[] [Exercício de Lógica](exercícios\lógica-comer-pizza.md)
