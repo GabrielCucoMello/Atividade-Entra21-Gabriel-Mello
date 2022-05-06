@@ -20,7 +20,8 @@ programa {
 }
 
 Parte 2
-Representação da ÁREA de um TERRENO em METROS QUADRADOS
+Representação da ÁREA de um TERRENO em METROS QUADRADOS com tratamento do tipo de área de terra, respectivamente: 
+Terreno até 1000m², Sítio até 5000m², Hectare de Terra até 10000m² e uma Fazenda acima de 10000m².
 
 programa {
   funcao inicio() 
