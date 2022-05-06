@@ -35,7 +35,7 @@ programa {
 
     mult = frente * lateral
 
-    se (mult < 1000)
+    se (mult <= 1000)
     {
     escreva("\nA área da sua terra é de ", mult, (" metros quadrados, sendo considerada um TERRENO")
     }
