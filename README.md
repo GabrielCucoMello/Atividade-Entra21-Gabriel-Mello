@@ -149,4 +149,4 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 
 [Exercício de Lógica](exercícios\lógica-comer-pizza.md)
 
-[Exercício-001 portugol](exercícios\exercício-001.portugol)
+[exercicio](https://github.com/GabrielCucoMello/Atividade-Entra21-Gabriel-Mello/blob/main/exercícios/exercício-001.portugol)
