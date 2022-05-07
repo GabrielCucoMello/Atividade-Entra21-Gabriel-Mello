@@ -1,0 +1,36 @@
+Exercicio 002:
+
+Elabore um algoritmo que receba dois numeros pelo teclado e compare se os numeros são:
+- iguais
+- A < B 
+- B < A 
+E informe o usuário. 
+
+programa {
+  funcao inicio() 
+  {
+    real a, b
+
+    escreva("Informe o primeiro número: ")
+    leia(a)
+
+    escreva("Informe o segundo número: ")
+    leia(b)
+
+    se(a == b)
+    {
+    escreva("\nO primeiro número informado ", a, " e o segundo número informado ", b, " são iguais.")
+    }
+
+    senao se(a < b)
+    {
+    escreva("\n O primeiro número informado ", a, " é menor que o segundo número informado ", b)
+    }
+
+    senao se(b < a)
+    {
+    escreva("\n O primeiro número informado ", a, " é maior que o segundo número informado ", b)
+    }
+    
+  }
+}
