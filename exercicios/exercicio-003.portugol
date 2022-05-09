@@ -5,6 +5,7 @@ calcule o desconto de INSS de acordo com a sua faixa salarial:
 < 2000 7% desconto 
 < 4000 9% desconto
 > 10000 10% desconto.
+< 10000 11% desconto.
 */
 
 programa
