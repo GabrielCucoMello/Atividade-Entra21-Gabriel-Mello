@@ -1,8 +1,12 @@
-Laço de Repetição
+/*Laço de Repetição
+
+Parte 1
 
 - Crie um algoritmo que receba 2 numeros, 
 - multiplique o resultados de AxB.
 - Imprima o resultado na tela 
+
+Parte 2
 
 - adicione um laço de repetição para todo o algoritmo que seja executado 
 até que a multiplicação resulte em 1000
@@ -10,6 +14,7 @@ até que a multiplicação resulte em 1000
 - utilize o recurso de funcões() para este Exercicio
 
 Parte 1
+*/
 
 programa {
   funcao inicio() 
@@ -29,8 +34,8 @@ escreva ("O valor total da multiplicacão do numero ",a, (" e o numero "),b, (" 
 
 }
 
-Parte 2
-
+/*Parte 2
+*/
 programa
 {
 	funcao inicio()

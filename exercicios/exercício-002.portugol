@@ -1,10 +1,11 @@
-Exercicio 002:
+/*Exercicio 002:
 
 Elabore um algoritmo que receba dois numeros pelo teclado e compare se os numeros são:
 - iguais
 - A < B 
 - B < A 
-E informe o usuário. 
+E informe o usuário.
+*/ 
 
 programa {
   funcao inicio() 

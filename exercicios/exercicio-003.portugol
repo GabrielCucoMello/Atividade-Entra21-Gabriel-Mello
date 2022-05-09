@@ -1,11 +1,11 @@
-Elabore um algoritmo que recebe o salario bruto de um funcionario e 
+/*Elabore um algoritmo que recebe o salario bruto de um funcionario e 
 calcule o desconto de INSS de acordo com a sua faixa salarial:
 
 < 1000 5% desconto
 < 2000 7% desconto 
 < 4000 9% desconto
 > 10000 10% desconto.
-
+*/
 
 programa
 {
