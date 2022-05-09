@@ -149,9 +149,9 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 
 [Exercício de Lógica](exercícios\lógica-comer-pizza.md)
 
-[Exercício 001 Portugol](exercícios\exercício-001.portugol)
+[Exercício 001 Portugol](exercicios\exercício-001.portugol)
 
-[Exercício 002 Portugol](exercícios\exercício-002.portugol)
+[Exercício 002 Portugol](exercicios\exercício-002.portugol)
 
 [Exercício 003 Portugol](exercicios\exercicio-003.portugol)
 
