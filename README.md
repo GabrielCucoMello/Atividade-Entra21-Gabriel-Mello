@@ -152,3 +152,7 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 [Exercício 001 Portugol](exercícios\exercício-001.portugol)
 
 [Exercício 002 Portugol](exercícios\exercício-002.portugol)
+
+[Exercício 003 Portugol](exercicios\exercicio-003.portugol)
+
+[Exercício 004 Portugol](exercicios\exercicio-004.portugol)

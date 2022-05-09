@@ -1,0 +1,74 @@
+Laço de Repetição
+
+- Crie um algoritmo que receba 2 numeros, 
+- multiplique o resultados de AxB.
+- Imprima o resultado na tela 
+
+- adicione um laço de repetição para todo o algoritmo que seja executado 
+até que a multiplicação resulte em 1000
+- ao sair informe o usuario que o resultado é igual a 1000 e aborte o laço. 
+- utilize o recurso de funcões() para este Exercicio
+
+Parte 1
+
+programa {
+  funcao inicio() 
+  { real a, b, mult
+
+escreva ("Informe o primeiro numero: ")
+leia (a)
+
+escreva ("Informe o segundo numero: ")
+leia (b)
+
+mult = a * b
+
+escreva ("O valor total da multiplicacão do numero ",a, (" e o numero "),b, (" é igual á: "),mult, )
+
+  }
+
+}
+
+Parte 2
+
+programa
+{
+	funcao inicio()
+	{
+		real a, b, mult
+		mult = 1
+        
+    {
+
+        enquanto (mult < 1000 ou mult > 1000) 
+        {
+
+		escreva("Digite o primeiro número: ")
+		leia(a)
+
+		escreva("Digite o segundo número: ")
+		leia(b)
+
+		mult = a * b 
+
+        se (mult < 1000 ou mult > 1000)
+        {
+        escreva ("Resultado da multiplicação ainda é diferente de mil. Digite novamente! \n")
+        }
+
+
+        }
+
+           
+        {
+        escreva("\n Parabéns! \n A multiplicação dos números é igual a: ", mult) 
+        }
+
+       
+        }
+
+    }
+
+    }
+}
+
