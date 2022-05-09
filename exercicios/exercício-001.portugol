@@ -14,7 +14,7 @@ programa {
 
     mult = base * altura
 
-    escreva("\nA área do retângulo é ", mult, (" centímetros")
+    escreva("\nA área do retângulo é ", mult, (" centímetros quadrados")
 
   }
 }
