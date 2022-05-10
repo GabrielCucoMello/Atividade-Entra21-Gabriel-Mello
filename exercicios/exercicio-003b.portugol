@@ -1,0 +1,59 @@
+/* Versão 001
+    Solicite um valor do usuario (inteiro)
+
+    Verifique se o valor está entre
+
+    >0 = imprimir: NUMERO NEGATIVO
+    0 e 9 = imprimir a palavra:ZERO a NOVE
+    10 e 19 = imprimir a palavra:DEZ a DEZENOVE
+    20 e 29 = imprimir a palavra:VINTE A VINTE E NOVE
+    30 e 39 = imprimir a palavra:TRINTA A TRINTA E NOVE
+    >=40 = imprimir: QUARENTA OU MAIOR
+
+    NO final calcule 50% do valor digitado e imprima:
+        50 por cento do valor informado é: [RESULTADO]
+*/
+
+programa 
+{
+  funcao inicio() 
+  {
+    inteiro valor
+
+    escreva("Informe um número: ")
+    leia(valor)
+
+    se (valor < 0)
+    {
+    escreva("\n O valor informado '", valor, "' é um NÚMERO NEGATIVO")
+    }
+
+    senao se (valor >= 0 e valor <= 9)
+    {
+    escreva("\n O valor informado '", valor, "' está dentre ZERO e NOVE")
+    }
+
+    senao se (valor >= 10 e valor <= 19)
+    {
+    escreva("\n O valor informado '", valor, "' está dentre DEZ e NOVE")
+    }
+
+    senao se (valor >= 20 e valor <= 29)
+    {
+    escreva("\n O valor informado '", valor, "' está dentre VINTE E VINTE e NOVE")
+    }
+
+    senao se (valor >= 30 e valor <= 39)
+    {
+    escreva("\n O valor informado '", valor, "' está dentre TRINTA E TRINTA e NOVE")
+    }
+
+    senao se (valor > 40)
+    {
+    escreva("\n O valor informado '", valor, "' é QUARENTA ou MAIOR")
+    }
+
+    escreva("\n 50 porcento do valor informado é '", valor * 0.50, "'")
+
+  }
+}

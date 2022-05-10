@@ -27,7 +27,7 @@ leia (b)
 
 mult = a * b
 
-escreva ("O valor total da multiplicacão do numero ",a, (" e o numero "),b, (" é igual á: "),mult, )
+escreva ("O valor total da multiplicacão do numero ", a, (" e o numero "), b, (" é igual á: "), mult)
 
   }
 
