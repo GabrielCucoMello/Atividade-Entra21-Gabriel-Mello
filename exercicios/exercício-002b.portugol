@@ -1,0 +1,44 @@
+/*
+Exercicio 002b: versão1
+
+    Receba os dados de duas variaveis. 
+    Imprimir o resultado da multiplicação das duas variaveis. 
+    Calcule a raiz quadrada do resultado e imprima. 
+*/
+
+programa {
+
+inclua biblioteca Matematica --> mat
+funcao inicio() 
+  {
+    real a, b, mult, raiz
+
+    escreva("Informe o primeiro número: ")
+    leia(a)
+
+    escreva("Informe o segundo número: ")
+    leia(b)
+
+    se(a == b)
+    {
+    escreva("\nO primeiro número informado '", a, "' e o segundo número informado '", b, "' são iguais.")
+    }
+
+    senao se(a < b)
+    {
+    escreva("\n O primeiro número informado '", a, "' é menor que o segundo número informado '", b, "'")
+    }
+
+    senao se(b < a)
+    {
+    escreva("\n O primeiro número informado '", a, "' é maior que o segundo número informado '", b, "'")
+    }
+
+    mult = a * b
+    raiz = mat.raiz (mult, 2.0)
+    
+    escreva("\n\nOs dois multiplos multiplicados resultam em: ", mult)
+    escreva("\nA raiz quadrada da multiplicação resulta em: ", raiz)
+
+  }
+}
