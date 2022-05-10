@@ -1,0 +1,30 @@
+/*
+    Crie uma função que imprima uma mensagem ao ser chamada.
+*/
+
+programa {
+funcao vazio linha_vazia()
+{
+escreva("\n==============================\n\n")
+}
+
+funcao inicio() 
+{ 
+  real a, b, mult
+
+escreva ("Informe o primeiro numero: ")
+leia (a)
+
+escreva ("Informe o segundo numero: ")
+leia (b)
+
+linha_vazia()
+
+mult = a * b
+
+escreva ("O valor total da multiplicacão do numero ", a, (" e o numero "), b, (" é igual á: "), mult)
+
+}
+
+
+}
