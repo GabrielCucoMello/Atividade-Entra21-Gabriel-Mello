@@ -6,7 +6,8 @@ Exercicio 002b: versão1
     Calcule a raiz quadrada do resultado e imprima. 
 */
 
-programa {
+programa 
+{
 
 inclua biblioteca Matematica --> mat
 funcao inicio() 

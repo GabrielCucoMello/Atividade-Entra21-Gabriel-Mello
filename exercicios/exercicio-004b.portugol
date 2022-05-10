@@ -2,7 +2,8 @@
     Crie uma função que imprima uma mensagem ao ser chamada.
 */
 
-programa {
+programa 
+{
 funcao vazio linha_vazia()
 {
 escreva("\n==============================\n\n")

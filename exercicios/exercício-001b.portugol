@@ -5,7 +5,8 @@
     Imprima o resultado.
 */
 
-programa {
+programa 
+{
   funcao inicio() 
   {
     inteiro altura, base, mult
@@ -27,7 +28,8 @@ programa {
     Utilize as mesmas variáveis da versão 001.
 */
 
-programa {
+programa 
+{
   funcao inicio() 
   {
     inteiro altura, base, perimetro
@@ -50,7 +52,8 @@ programa {
     Imprima o resultado da área do retangulo e o perimetro do retangulo.
 */
 
-programa {
+programa 
+{
   funcao inicio() 
   {
     inteiro altura, base, perimetro, area
@@ -76,7 +79,8 @@ programa {
     (vamos descondiderar as unidades m2 e mlinear), apenas pensar nas unidades.
 */
 
-programa {
+programa 
+{
   funcao inicio() 
   {
     inteiro altura, base, perimetro, area

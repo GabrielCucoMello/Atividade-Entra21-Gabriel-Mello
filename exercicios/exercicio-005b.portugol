@@ -1,0 +1,30 @@
+/*
+    Solicite ao usuario informar um numero inteiro entre 1 e 3
+    utilize case para imprimir Maça, para 1, Pera para 2, e Melancia para 3. 
+*/
+
+programa 
+{
+funcao inicio() 
+{ 
+  inteiro fruta
+
+escreva ("Informe um número de 1 a 3: ")
+leia (fruta)
+
+limpa()
+
+escolha (fruta)
+{
+caso 1:
+escreva("O número '1' corresponde a MAÇÃ")
+pare
+
+caso 2:
+escreva("O número '2' corresponde a PERA")
+pare
+
+caso 3:
+escreva("O número '3' corresponde a MELÂNCIA")
+pare
+}
