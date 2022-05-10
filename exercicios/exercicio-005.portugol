@@ -1,0 +1,101 @@
+/*Exercicio 005
+Uso de:
+    Caso  
+    Laços
+    Bibliteca Util     
+    funcoes do portugol 
+
+Faça um algoritmo para contagem de votos:
+    1. Mostre um contador de 5 segundos no inicio do programa. 
+    2. Estabeleça 3 Candidados, votos brancos, e votos nulos. 
+    3. Solicite ao usuario informar o nome dos 3 candidatos.
+    4. Leias os votos (3c,br,nul) até que o usuario informe o numero 999 como numero do candidato. 
+    5. Imprimir o total de votos de cada candidato
+    6. Imprimir o percentual de votos de cada candidato em relação a quantidade de votos. 
+    7. Imprimir a contagem de brancos e nulos e seus percentuais. 
+    8. Sua imaginação é o limite. informe o usuario de tudo que vc acha importate. 
+    */
+
+programa {
+  funcao inicio() 
+  {
+        inteiro joao = 0, cleber = 0, jorge = 0
+
+        inteiro branco = 0, nulos = 0, total_votos = 0
+
+        real porcentagem_joao, porcentagem_cleber, porcentagem_jorge
+
+        real porcentagem_brancos, porcentagem_nulos
+
+        inteiro voto 
+
+            faca
+            {
+                    limpa()
+                    escreva("Digite o número do seu candidado ou digite '0' para abortar a operação\n")
+
+                    escreva(" João -> 41\n")
+                    escreva(" Cleber -> 32\n")
+                    escreva(" Jorge -> 95\n")
+                    escreva(" Branco -> 1\n")
+
+                    escreva("\n Qualquer número ou palavra diferente de 0, 41, 32, 95 e 1 anulará seu voto\n")
+                    escreva("Digite seu voto: ")
+
+                    leia(voto)
+                    limpa()
+
+
+                escolha (voto)
+                {
+
+                    caso 0:
+                    escreva("Votação finalizada\n")
+                    pare 
+
+                    caso 41:
+                        joao = joao + 1
+                    pare
+
+                    caso 32:
+                        cleber = cleber + 1
+                    pare
+
+                    caso 95:
+                        jorge = jorge + 1
+                    pare
+
+                    caso 1:
+                        branco = branco + 1
+                    pare
+
+                    caso contrario
+                        nulos = nulos + 1
+                }
+            }
+
+            enquanto (voto != 0)
+
+            total_votos = joao + cleber + jorge + branco + nulos
+
+            se (total_votos > 0)
+            {
+                porcentagem_joao = (joao * 100) / total_votos
+                porcentagem_cleber = (cleber * 100) / total_votos
+                porcentagem_jorge = (jorge * 100) / total_votos
+                porcentagem_brancos = ( branco * 100) / total_votos
+                porcentagem_nulos = (nulos * 100) / total_votos
+
+                escreva("\n")
+
+                escreva("Total de votos: ", total_votos, "\n\n"
+                escreva("João teve: ", joao, " voto(s). Totalizando ", porcentagem_joao, "% do total de votos\n")
+                escreva("João teve: ", cleber, " voto(s). Totalizando ", porcentagem_cleber, "% do total de votos\n")
+                escreva("João teve: ", jorge, " voto(s). Totalizando ", porcentagem_jorge, "% do total de votos\n")
+                escreva("Houveram ", branco, " voto(s) . Totalizando ", porcentagem_brancos, "% do total de votos\n")
+                escreva("Houveram ", nulos, " voto(s) nulos. Totalizando ", porcentagem_nulos, "% do total de votos\n")
+            }
+    
+    
+  }
+}
