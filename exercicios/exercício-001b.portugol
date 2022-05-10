@@ -1,0 +1,93 @@
+/* Versão 001
+
+*/
+
+programa {
+  funcao inicio() 
+  {
+    inteiro altura, base, mult
+    
+    escreva("Digite a base do retângulo em centímetros: ")
+    leia(base)
+
+    escreva("Digite a altura do retângulo em centímetros: ")
+    leia(altura)
+
+    mult = base * altura
+
+    escreva("\nA área do retângulo é ", mult, (" centímetros quadrados.")
+  }
+}
+
+/* Versão 002
+
+*/
+
+programa {
+  funcao inicio() 
+  {
+    inteiro altura, base, perimetro
+    
+    escreva("Digite a base do retângulo em centímetros: ")
+    leia(base)
+
+    escreva("Digite a altura do retângulo em centímetros: ")
+    leia(altura)
+
+    perimetro = 2 * (base + altura)
+
+    escreva("\nO perímetro do retângulo é ", perimetro, (" centímetros quadrados.")
+  }
+}
+
+/* Versão 003
+
+*/
+
+programa {
+  funcao inicio() 
+  {
+    inteiro altura, base, perimetro, area
+    
+    escreva("Digite a base do retângulo em centímetros: ")
+    leia(base)
+
+    escreva("Digite a altura do retângulo em centímetros: ")
+    leia(altura)
+
+    perimetro = 2 * (base + altura)
+    area = base * altura
+
+    escreva("\nO perímetro do retângulo é ", perimetro, (" centímetros quadrados.")
+    escreva("\nA área do retângulo é ", area, (" centímetros quadrados.")
+  }
+}
+
+/*Versão 004
+
+*/
+
+programa {
+  funcao inicio() 
+  {
+    inteiro altura, base, perimetro, area
+    
+    escreva("Digite a base do retângulo em centímetros: ")
+    leia(base)
+
+    escreva("Digite a altura do retângulo em centímetros: ")
+    leia(altura)
+
+    perimetro = 2 * (base + altura)
+    area = base * altura
+
+    escreva("\nO perímetro do retângulo é ", perimetro, (" centímetros quadrados.")
+    escreva("\nA área do retângulo é ", area, (" centímetros quadrados.\n")
+
+    se (perimetro > area)
+    escreva("\nO perímtetro do retângulo é maior do que a área.")
+
+    senao se (area > perimetro)
+    escreva("\nA área do retângulo é maior do que o perímetro.")
+  }
+}
