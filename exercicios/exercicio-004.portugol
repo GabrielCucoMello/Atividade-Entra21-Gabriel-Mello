@@ -14,7 +14,6 @@ até que a multiplicação resulte em 1000
 - utilize o recurso de funcões() para este Exercicio
 
 Parte 1
-*/
 
 programa {
   funcao inicio() 
@@ -34,8 +33,9 @@ escreva ("O valor total da multiplicacão do numero ",a, (" e o numero "),b, (" 
 
 }
 
-/*Parte 2
+Parte 2
 */
+
 programa
 {
 	funcao inicio()
