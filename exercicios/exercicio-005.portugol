@@ -32,14 +32,14 @@ programa {
             faca
             {
                     limpa()
-                    escreva("Digite o número do seu candidado ou digite '0' para abortar a operação\n")
+                    escreva("Digite o número do seu candidado ou digite '999' para abortar a operação\n")
 
                     escreva(" João -> 41\n")
                     escreva(" Cleber -> 32\n")
                     escreva(" Jorge -> 95\n")
                     escreva(" Branco -> 1\n")
 
-                    escreva("\n Qualquer número ou palavra diferente de 0, 41, 32, 95 e 1 anulará seu voto\n")
+                    escreva("\n Qualquer número ou palavra diferente de 999, 41, 32, 95 e 1 anulará seu voto\n")
                     escreva("Digite seu voto: ")
 
                     leia(voto)
@@ -49,7 +49,7 @@ programa {
                 escolha (voto)
                 {
 
-                    caso 0:
+                    caso 999:
                     escreva("Votação finalizada\n")
                     pare 
 
