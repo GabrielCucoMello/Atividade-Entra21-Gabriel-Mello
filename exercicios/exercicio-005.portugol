@@ -14,7 +14,7 @@ Faça um algoritmo para contagem de votos:
     6. Imprimir o percentual de votos de cada candidato em relação a quantidade de votos. 
     7. Imprimir a contagem de brancos e nulos e seus percentuais. 
     8. Sua imaginação é o limite. informe o usuario de tudo que vc acha importate. 
-    */
+ */
 
 programa {
   funcao inicio() 
