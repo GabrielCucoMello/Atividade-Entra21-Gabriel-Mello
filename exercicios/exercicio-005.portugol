@@ -17,6 +17,7 @@ Faça um algoritmo para contagem de votos:
  */
 
 programa {
+inclua biblioteca Util
   funcao inicio() 
   {
         inteiro joao = 0, cleber = 0, jorge = 0
@@ -26,6 +27,19 @@ programa {
         real porcentagem_joao, porcentagem_cleber, porcentagem_jorge
 
         real porcentagem_brancos, porcentagem_nulos
+
+        inteiro contador = 5
+		
+		enquanto (contador > 0)
+		{
+			limpa()
+			escreva ("Aguarde: ", contador)
+		  	
+		  	contador = contador - 1
+		  	Util.aguarde(1000)
+		}
+
+		limpa()
 
         inteiro voto 
 
@@ -74,7 +88,7 @@ programa {
                 }
             }
 
-            enquanto (voto != 0)
+            enquanto (voto != 999)
 
             total_votos = joao + cleber + jorge + branco + nulos
 
@@ -92,7 +106,7 @@ programa {
                 escreva("João teve: ", joao, " voto(s). Totalizando ", porcentagem_joao, "% do total de votos\n")
                 escreva("João teve: ", cleber, " voto(s). Totalizando ", porcentagem_cleber, "% do total de votos\n")
                 escreva("João teve: ", jorge, " voto(s). Totalizando ", porcentagem_jorge, "% do total de votos\n")
-                escreva("Houveram ", branco, " voto(s) . Totalizando ", porcentagem_brancos, "% do total de votos\n")
+                escreva("Houveram ", branco, " voto(s) brancos . Totalizando ", porcentagem_brancos, "% do total de votos\n")
                 escreva("Houveram ", nulos, " voto(s) nulos. Totalizando ", porcentagem_nulos, "% do total de votos\n")
             }
     
