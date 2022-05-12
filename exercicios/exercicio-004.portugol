@@ -45,7 +45,7 @@ programa
         
     {
 
-        enquanto (mult < 1000 ou mult > 1000) 
+        enquanto (mult != 1000) 
         {
 
 		escreva("Digite o primeiro número: ")
@@ -56,17 +56,18 @@ programa
 
 		mult = a * b 
 
-        se (mult < 1000 ou mult > 1000)
+        se (mult != 1000)
         {
-        escreva ("Resultado da multiplicação ainda é diferente de mil. Digite novamente! \n")
+        escreva ("Resultado da multiplicação '", mult, "' ainda é diferente de mil. Digite novamente! \n")  
         }
-
+        
 
         }
 
            
         {
-        escreva("\n Parabéns! \n A multiplicação dos números é igual a: ", mult) 
+        limpa()
+        escreva("Parabéns!\nA multiplicação dos números é igual a: ", mult) 
         }
 
        
