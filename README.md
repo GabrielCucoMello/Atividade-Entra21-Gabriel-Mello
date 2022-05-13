@@ -178,3 +178,5 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 [Exercício 009 Portugol](exercicios\exercicio-009.portugol)
 
 [Exercício 0010 Portugol](exercicios\exercicio-0010.portugol)
+
+<!-->'em breve' passar conteúdo do caderno pro readme<-->
