@@ -109,7 +109,5 @@ inclua biblioteca Util
                 escreva("Houveram ", branco, " voto(s) brancos . Totalizando ", porcentagem_brancos, "% do total de votos\n")
                 escreva("Houveram ", nulos, " voto(s) nulos. Totalizando ", porcentagem_nulos, "% do total de votos\n")
             }
-    
-    
   }
 }

@@ -145,14 +145,36 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 4. Priorização;
 5. Facilidade no fluxo de trabalho;
 
+**Banco de dados do inpe para uma boa pesquisa de dados.**
+
 [Banco de dados do Inpe](http://bancodedados.cptec.inpe.br/)
+
+**Exercícios feitos em saula de aula**
 
 [Exercício de Lógica](exercicios\lógica-comer-pizza.md)
 
 [Exercício 001 Portugol](exercicios\exercicio-001.portugol)
+[Exercício 001b Portugol](exercicios\exercicio-001b.portugol)
 
 [Exercício 002 Portugol](exercicios\exercicio-002.portugol)
+[Exercício 002b Portugol](exercicios\exercicio-002b.portugol)
 
 [Exercício 003 Portugol](exercicios\exercicio-003.portugol)
+[Exercício 003b Portugol](exercicios\exercicio-003b.portugol)
 
 [Exercício 004 Portugol](exercicios\exercicio-004.portugol)
+[Exercício 004b Portugol](exercicios\exercicio-004b.portugol)
+
+[Exercício 005 Portugol](exercicios\exercicio-005.portugol)
+[Exercício 005b Portugol](exercicios\exercicio-005b.portugol)
+
+[Exercício 006 Portugol](exercicios\exercicio-006.portugol)
+[Exercício 006b Portugol](exercicios\exercicio-006b.portugol)
+
+[Exercício 007 Portugol](exercicios\exercicio-007.portugol)
+
+[Exercício 008 Portugol](exercicios\exercicio-008.portugol)
+
+[Exercício 009 Portugol](exercicios\exercicio-009.portugol)
+
+[Exercício 0010 Portugol](exercicios\exercicio-0010.portugol)
