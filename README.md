@@ -19,8 +19,8 @@ Podem atender as aulas por meio do Google Meet ou Microsoft Teams enviado pelo e
 
 ### Onde os usuários podem obter ajuda com seu projeto?<br />
 Através do **TELEGRAM** podendo sanar dúvidas com o professor ou entrar em contato via **WHATSAPP** com os coordenadores.<br />
-*47 3222-1904 - João (whatsapp)<br/>*
-*47 9 9602-0064 - Débora (whatsapp)*
+***47 3222-1904 - João (whatsapp)<br/>***
+***47 9 9602-0064 - Débora (whatsapp)***
 
 ### Quem mantém e contribui com o projeto?<br />
 Uma série de empresas que podem ser encontradas na área de Investidores no site do [Entra21](https://www.entra21.com.br)
