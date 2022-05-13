@@ -1,0 +1,33 @@
+/*
+Parte 1
+Neste exemplo, é criado um vetor com valores pré-definidos. Logo após, o programa
+pede ao usuário que informe um valor e percorre o vetor procurando pelo valor 
+informado. 
+*/
+
+programa 
+{
+    funcao inicio() 
+    { 
+        inteiro vetor[] = {10, 32, 12, 24, 28, 41, 90}
+        inteiro numero
+        logico achou = falso
+
+        escreva("Qual número deseja procurar? ")
+        leia(numero)
+
+        para (inteiro posicao = 0; posicao < 7; posicao++)
+        {
+            se (vetor[posicao] == numero)
+            {
+                escreva("Encontrado na posição: ", posicao, "\n")
+                achou = verdadeiro
+            }
+        }
+        
+        se(nao achou)
+        {
+            escreva("O número não está no vetor\n")
+        }
+    }
+}

@@ -1,0 +1,35 @@
+/*
+Parte 1
+Este exemplo ilustra o uso dos vetores da linguagem Portugol.
+ 
+Neste exemplo, são criados dois vetores. O primeiro, é do tipo cadeia e armazena os 
+nomes de várias pessoas. O segundo, é do tipo real e armazena as alturas destas pessoas.
+ 
+O programa então percorre cada um dos vetores, montando no console uma tabela dos dados
+existentes. Cada nome é associado à sua respectiva altura.
+*/
+
+
+programa 
+{
+    funcao vazio linha()
+    {
+    escreva("------------------\n")
+    }
+
+    funcao inicio() 
+    { 
+        cadeia nome[] = { "Jorge", "CLeiton", "Adalberto", "Jefferson", "Leandro" }
+        real altura[] = { 1.90, 1.73, 1.82, 2.05, 1.78 }
+
+        linha()
+        escreva ("      TABELA      \n")
+        linha()
+
+
+        para (inteiro posicao = 0; posicao < 5; posicao++)
+        {
+            escreva (nome[posicao], "\t\t", altura [posicao], "\n")
+        }
+    }
+}

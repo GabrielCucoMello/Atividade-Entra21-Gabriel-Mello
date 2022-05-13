@@ -9,7 +9,14 @@ funcao inicio()
 { 
   inteiro fruta
 
-escreva ("Informe um número de 1 a 3: ")
+
+escreva("\nPara MAÇÃ escreva o nº 1: ")
+
+escreva("\nPara PERA escreva o nº 2: ")
+
+escreva("\nPara MELÂNCIA escreva o nº 3: ")
+
+escreva ("\nInforme um número de 1 a 3: ")
 leia (fruta)
 
 limpa()
