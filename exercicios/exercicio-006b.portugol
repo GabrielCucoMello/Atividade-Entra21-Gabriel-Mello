@@ -103,23 +103,34 @@ Parte 4
 Crie um algoritmo que armazene e imprima 10 numeros resultantes de uma funcao randomica utilizando um Vetor
 */
 
-programa
-    inclua biblioteca Util --> util 
-    {
-    funcao inicio() 
-    { 
-        inteiro vetor[10]
+programa 
+{  
+  inclua biblioteca Util --> u
 
-        para (inteiro posicao = 0; posicao < 10; posicao++)
+  funcao inicio() 
+  {
+        inteiro vi //Corresponde o valor inicial
+        inteiro vf //Corresponde ao valor final
+        inteiro vs //Corresponde ao valor sorteado
+        inteiro vetor[11]
+
+        escreva("Você terá que informar dois valores para o sorteio acontecer dentre eles\n")
+
+        escreva("Informe um valor inicial: ")
+        leia(vi)
+
+        escreva("Informe um valor final: ")
+        leia(vf)
+
+        para (inteiro i = 1; i < 11; i++)
         {
-            vetor[posicao] = util.sorteia(1, 200)
+        vetor[i] = u.sorteia(vi, vf)
+
+        escreva ("\nSorteio nº ", i, ":", vetor[i])
         }
 
-        escreva("\nVetor na ordem original:\n")
+        escreva("\n")
 
-        para(inteiro posicao = 0; posicao < 10; posicao++)
-        {
-            escreva(vetor[posicao], " ")
-        }   
-    }    
+
+  }
 }
