@@ -18,7 +18,7 @@ O projeto ajuda o aluno a entrar no mercado da programação, o dando a especial
 Podem atender as aulas por meio do Google Meet ou Microsoft Teams enviado pelo email, após a confirmação da participação no site, aí começar a fazer as aulas.
 
 ### Onde os usuários podem obter ajuda com seu projeto?<br />
-Através do Telegram podendo sanar dúvidas com o professor ou entrar em contato via **whatsapp** com os coordenadores.<br />
+Através do **TELEGRAM** podendo sanar dúvidas com o professor ou entrar em contato via **WHATSAPP** com os coordenadores.<br />
 *47 3222-1904 - João (whatsapp)<br/>*
 *47 9 9602-0064 - Débora (whatsapp)*
 
