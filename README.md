@@ -153,30 +153,30 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 
 [Exercício de Lógica](exercicios\lógica-comer-pizza.md)
 
-[Exercício 001 Portugol](exercicios\exercicio-001.portugol)<br/>
-[Exercício 001b Portugol](exercicios\exercicio-001b.portugol)
+[Exercício 001 Portugol](exercicios\portugol\exercicio-001.portugol)<br/>
+[Exercício 001b Portugol](exercicios\portugol\exercicio-001b.portugol)
 
-[Exercício 002 Portugol](exercicios\exercicio-002.portugol)<br/>
-[Exercício 002b Portugol](exercicios\exercicio-002b.portugol)
+[Exercício 002 Portugol](exercicios\portugol\exercicio-002.portugol)<br/>
+[Exercício 002b Portugol](exercicios\portugol\exercicio-002b.portugol)
 
-[Exercício 003 Portugol](exercicios\exercicio-003.portugol)<br/>
-[Exercício 003b Portugol](exercicios\exercicio-003b.portugol)
+[Exercício 003 Portugol](exercicios\portugol\exercicio-003.portugol)<br/>
+[Exercício 003b Portugol](exercicios\portugol\exercicio-003b.portugol)
 
-[Exercício 004 Portugol](exercicios\exercicio-004.portugol)<br/>
-[Exercício 004b Portugol](exercicios\exercicio-004b.portugol)
+[Exercício 004 Portugol](exercicios\portugol\exercicio-004.portugol)<br/>
+[Exercício 004b Portugol](exercicios\portugol\exercicio-004b.portugol)
 
-[Exercício 005 Portugol](exercicios\exercicio-005.portugol)<br/>
-[Exercício 005b Portugol](exercicios\exercicio-005b.portugol)
+[Exercício 005 Portugol](exercicios\portugol\exercicio-005.portugol)<br/>
+[Exercício 005b Portugol](exercicios\portugol\exercicio-005b.portugol)
 
-[Exercício 006 Portugol](exercicios\exercicio-006.portugol)<br/>
-[Exercício 006b Portugol](exercicios\exercicio-006b.portugol)
+[Exercício 006 Portugol](exercicios\portugol\exercicio-006.portugol)<br/>
+[Exercício 006b Portugol](exercicios\portugol\exercicio-006b.portugol)
 
-[Exercício 007 Portugol](exercicios\exercicio-007.portugol)
+[Exercício 007 Portugol](exercicios\portugol\exercicio-007.portugol)
 
-[Exercício 008 Portugol](exercicios\exercicio-008.portugol)
+[Exercício 008 Portugol](exercicios\portugol\exercicio-008.portugol)
 
-[Exercício 009 Portugol](exercicios\exercicio-009.portugol)
+[Exercício 009 Portugol](exercicios\portugol\xercicio-009.portugol)
 
-[Exercício 010 Portugol](exercicios\exercicio-010.portugol)
+[Exercício 010 Portugol](exercicios\portugol\exercicio-010.portugol)
 
 <!--'em breve' passar conteúdo do caderno pro readme-->
