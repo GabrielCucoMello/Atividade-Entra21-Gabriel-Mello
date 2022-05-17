@@ -1,0 +1,1 @@
+# Este comentário foi feito para dar continuação aos exercícios do conteúdo com iniciação em python
