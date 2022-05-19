@@ -6,10 +6,7 @@ caracteres = ''.join(palavras)
 fraseinvertida = ''
 
 for i in range(
-    len(caracteres)-1,
-    -1,
-    -1
-    ):
+    len(caracteres)-1,-1,-1):
     fraseinvertida += caracteres[i]
 
 print(caracteres, fraseinvertida)
