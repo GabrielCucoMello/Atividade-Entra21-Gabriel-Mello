@@ -8,7 +8,7 @@ print(aluno)
 
 def calcula_media(aluno):
     print('Fase2:-----------')
-    notas = []
+    boletim = []
     for media in aluno:
         print(f"Aluno --> {media['Nome']}")
         if len(media['Notas']) > 0:
@@ -16,8 +16,8 @@ def calcula_media(aluno):
             print(f"Notas: {media['Notas']}")
         else:
             temp = 0
-        notas.append({'Nome':media['Nome'], 'Media das notas': temp})
-    print(notas)
+        boletim.append({'Nome':media['Nome'], 'Media das notas': temp})
+    print(boletim)
 
 media_estudante = calcula_media(aluno)
 print('Fase3:-----------')
