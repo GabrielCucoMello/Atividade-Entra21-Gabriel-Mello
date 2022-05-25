@@ -1,3 +1,7 @@
+from linecache import clearcache
+from turtle import clear
+
+
 def id(*args, **kargs):
     for n in args:
         nome = n
