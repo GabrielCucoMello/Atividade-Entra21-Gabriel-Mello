@@ -35,16 +35,16 @@ if (exemplo == 3):
 
     colunas = list({'id', 'Nome', 'Telefone', 'CEP',
                    'Idade', 'N1', 'N2', 'N3', 'N4'})
-    colunas.remove('id')
 
     dd = importa_planilha(colunas)
 
     colnotas = list({'N1', 'N2', 'N3', 'N4'})
+    colunas.remove('id')
 
     print('======================================================')
     for x in colunas:
         print(' ', x, end=' ')
-    print('\n------------------------------------------------------')
+    print('\n------------------------------------------------------\n')
 
     for i in dd.values():
         print(':', end=' ')
@@ -52,26 +52,38 @@ if (exemplo == 3):
         for N in colunas:
             print(i[N], end=' ')
 
-    somanotas = 0
-    numnotas = 0
+        somanotas = 0
+        numnotas = 0
 
-    for M in colnotas:
-        somanotas += float(str(i[M]).replace(',', '.'))
-        numnotas += 1
-        media = (somanotas/numnotas)
-        roundmed = round(media, 2)
+        for M in colnotas:
+            somanotas += float(str(i[M]).replace(',', '.'))
+            numnotas += 1
+            media = (somanotas/numnotas)
+            roundmed = round(media, 2)
 
-    print(f'Soma: {round(somanotas, 1)}, Média: {roundmed}')
+        print(f'Soma: {round(somanotas, 1)}, Média: {roundmed}')
 
-    status = 'Reprovado'
-    if (roundmed >= 7):
-        status = 'Aprovado'
+        status = 'Reprovado'
+        if (roundmed >= 7):
+            status = 'Aprovado'
 
-# dando erro, arrumar amanhã: Demonstração do exemplo: 3
-# ======================================================
-#   CEP   Nome   Idade   Telefone   N2   N4   N3   N1 
-# ------------------------------------------------------
-# : 89010230 Traceback (most recent call last):
-#   File "c:\Users\cucom\Desktop\curso\Atividade-Entra21-Gabriel-Mello\exercicios\python\iniciação em python\p001.py", line 53, in <module>
-#     print(i[N], end=' ')
-# KeyError: 'Nome'
+        newdict.append({
+            'Nome': i['Nome'],
+            'Media': roundmed,
+            'Status': status
+        }
+        )
+
+    colboletim = list(['Nome', 'Media', 'Status'])
+    print('Boletim')
+    print('============================')
+    for a in colboletim:
+        print(a, end=' ')
+    
+    print('\n----------------------------')
+
+    for b in newdict:
+        for c in colboletim:
+            print(b[c], end=' ')
+        print(' ')
+    print('============================')
