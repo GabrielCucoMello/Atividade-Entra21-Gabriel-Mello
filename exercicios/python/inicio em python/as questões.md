@@ -53,7 +53,7 @@ e000.py e001.py, e002.py e sucessivamente para cada um dos exercicios abaixo. E 
 45. Crie um Dicionario de dados usando o construtor de dicionarios do Python, alimente os valores do mesmo com os dados de duas listas Itens e Preços. 
 46. Crie uma simples estrutura de dados simulando um cadastro para uma loja. Nesse cadastro deve conter informações como nome, idade, sexo, estado civil, nacionalidade, faixa de renda, Exiba os dados. 
 47. Crie um programa que recebe dados de um aluno como nome e suas notas em supostos 3 trimestres de aula, retornando um novo dicionario como o nome do aluno e a média de suas notas
-48. Crie um sistema de perguntas e respostas que interage com o usuário, pedindo que o mesmo insira uma resposta. Caso a primeira questão esteja correta, exiba em tela uma mensagem de acerto e para para a proxima pergunta, caso incorreta, exiba uma mensagem de erro e pule para a proxima pergunta. Dicts. 
+48. Crie um sistema de perguntas e respostas que interage com o usuário, pedindo que o mesmo insira uma resposta. Caso a primeira questão esteja correta, exiba em tela uma mensagem de acerto e para  a proxima pergunta, caso incorreta, exiba uma mensagem de erro e pule para a proxima pergunta. Dicts. 
 49. Crie uma função de nome funcao1, que por sua vez não relializa nenhuma ação:
 50. Importe a função 1 do exercio anterior e atribua o resultado da função a uma variavel. 
 51. Crie uma função que retorna um valor padrão: 
@@ -66,3 +66,12 @@ e000.py e001.py, e002.py e sucessivamente para cada um dos exercicios abaixo. E 
 58. Crie uma função que pode conter dois ou mais parametros, porem sem um numero definido declarado de parametros:
 59. Crie uma função de numero de paramtros indefinido, que realiza a soma dos números repassados como parâmtro, independentemente da quantidade de números: 
 60. Crie uma função que recebe parametros tanto por justaposição (*args) quanto nomeados **(kwargs):
+61. Escreva um programa que retorna o numero Fibonacci: sendo o numero de Fibonacci um valor iniciado em 0 ou em 1 onde cada termo subsequente corresponde a soma dos dois anteriores.
+62. Crie um programa modularizado, onde em um arquivo teremos uma lista de médicos ficticios a serem consultados, em outro arquivo, teremos a estrutura principal do programa, que por sua vez realiza o agendamento de uma consulta médica com base na interação com o usuário.
+63. Aprimore o exemplo anterior, incluindo um módulo simulando o cadastro de usuarios em um plano de saude, apenas permitindo o agendamento da consulta caso o usuário que está interagindo com o programa conste no cadastro:
+64. Crie uma função que recebe parametros tanto por justaposição quanto nomeados a partir de uma lista e de um dicionario, desempacotando os elementos e reorganizando os mesmos com parametros da função. (Minha solução tem 6 linhas)
+65. Crie uma classe de nome Carro e lhe dê tres atributos: nome, ano e cor.
+66. Crie uma classe Pessoa, instancie a mesma por meio de uma variavel e crie alguns atributos de classe dando carcteristicas a essa pessoa. Por fim exiba em tela alguma mensagem que incorpore os atributos de classe criados. 
+67. Crie uma classe que armazena algumas caracteristicas de um carro, em seguida crie dois carros distintos, de caracteristicas diferentes, usando da classe para a construção de seu objetos/variaveis. 
+68. Crie uma classe Pessoa com método inicializador e alguns objetos da classe vazios dentro da mesma que representam caracteristicas de uma pessoa. 
+69
