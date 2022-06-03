@@ -1,6 +1,6 @@
 import pandas as pd
 
-colunas = list(['Id', 'Nome', 'Idade', 'Sexo', 'Altura', 'Cor'])
+colunas = list(['Id', 'Nome', 'Idade', 'Sexo', 'Altura'])
 
 class Pessoa():
     def __init__(self, pessoa):
@@ -8,9 +8,8 @@ class Pessoa():
         self.idade = pessoa.get('Idade')
         self.sexo = pessoa.get('Sexo')
         self.altura = pessoa.get('Altura')
-        self.cor = pessoa.get('Cor')
     def hello(self):
-        return f'Oi eu sou o {self.nome}, tenho {self.idade} anos, sou do sexo {self.sexo}, tenho {self.altura} metros e sou da cor {self.cor}'
+        return f'Oi eu sou o {self.nome}, tenho {self.idade} anos, sou do sexo {self.sexo}, tenho {self.altura} metros'
 
 
 class SheetReader():
