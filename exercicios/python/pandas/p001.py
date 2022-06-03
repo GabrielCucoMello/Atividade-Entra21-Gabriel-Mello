@@ -4,7 +4,7 @@ from pandasfile import importa_planilha
 # dd = importa_planilha(colunas)
 # print(dd)
 
-exemplo = 3
+exemplo = 1
 
 print(f'Demonstração do exemplo: {exemplo}')
 
