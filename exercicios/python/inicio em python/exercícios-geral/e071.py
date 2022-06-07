@@ -19,3 +19,5 @@ print(contas.soma(3, 4))
 print(contas.sub(4, 3))
 print(contas.mult(3, 4))
 print(contas.div(12, 4))
+
+# eval, testar depois

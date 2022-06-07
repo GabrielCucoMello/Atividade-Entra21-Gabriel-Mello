@@ -32,3 +32,6 @@ if conta == 3:
 
 if conta == 4:
     print(contas.div(int(input('Digite o primeiro número: ')), int(input('Digite um segundo número: '))))
+
+if conta != 1 and conta != 2 and conta != 3 and conta != 4:
+    print('Você não digitou nenhuma opção válida.')

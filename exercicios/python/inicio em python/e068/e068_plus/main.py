@@ -9,7 +9,7 @@ class Pessoa():
         self.sexo = pessoa.get('Sexo')
         self.altura = pessoa.get('Altura')
     def hello(self):
-        return f'Oi eu sou o {self.nome}, tenho {self.idade} anos, sou do sexo {self.sexo}, tenho {self.altura} metros'
+        return f'Oi eu sou o/a {self.nome}, tenho {self.idade} anos, sou do sexo {self.sexo}, tenho {self.altura} metros'
 
 
 class SheetReader():
