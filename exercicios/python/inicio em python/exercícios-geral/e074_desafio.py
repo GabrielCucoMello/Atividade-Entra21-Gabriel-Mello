@@ -20,6 +20,8 @@ class Calculadora:
             op = str(op.replace('X' and '.', '*'))
         if isinstance(op, str):
             op = str(op.replace('^', '**'))
+        if isinstance(op, str):
+            op = str(op.replace(':', '/'))
             
         self.op_valido = op
 
