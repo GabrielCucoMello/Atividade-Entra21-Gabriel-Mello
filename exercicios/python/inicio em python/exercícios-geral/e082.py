@@ -2,9 +2,8 @@ x = 3
 
 def conta():
     global x
-    y = 4
-    x = x * 2
+    x = 4
     print(x)
-    print(y)
 
+print(x)
 conta()
