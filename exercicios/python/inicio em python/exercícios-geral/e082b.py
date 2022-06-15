@@ -1,15 +1,20 @@
-tudo = 'global dentro da classe 2'
+tudo = 0
 
-class Local():
-    def __init__(self):
-        self.tudo = 'local dentro da classe 1'
 
 class Global():
     def __init__(self):
         global tudo
-        self.tudo =tudo
+        tudo = tudo + 2
+        print(tudo)
+
+
+class Local():
+    def __init__(self):
+        tudo = 3
+        print(tudo + 1)
+
 
 result1 = Global()
-print(result1.tudo)
 result2 = Local()
-print(result2.tudo)
+
+# nao se usa assim em classe, mas ta aí a adesão de conhecimento
