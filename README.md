@@ -145,6 +145,14 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 4. Priorização;
 5. Facilidade no fluxo de trabalho;
 
+# Lógica de programação
+*Computador não recebe ações a não ser que for por meios lógicos*
+
+### FLuxograma
+*Um fluxograma é um diagrama que descreve um processo, sistema ou algoritmo de computador*
+
+![Exemplo de Fluxograma](https://ferramentasdaqualidade.org/wp-content/uploads/2016/11/Capturar_2016_12_23_14_15_52_123.png)
+
 **Banco de dados do inpe para uma boa pesquisa de dados.**
 
 [Banco de dados do Inpe](http://bancodedados.cptec.inpe.br/)
