@@ -56,7 +56,7 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 
 # Scrum
 
-![Processo Scrum](https://www.tecnicon.com.br/upload/public/Blog/post-scrum.png)
+![Processo Scrum](https://i2.wp.com/mindmaster.com.br/wp-content/uploads/2014/06/Scrum-Process1.png?fit=640%2C329)
 
 ### Pilares
 
@@ -83,13 +83,18 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 1. Sprint;<br />
 *Caixa de tempo (o que a gente precisa para o projeto).*
 2. Sprint Planning;<br />
-*Planejar este tempo.*
+*Planejar este tempo.*<br />
+<img src="https://i.imgur.com/v8a83k7.jpeg" width="700" heigh="500">
+
 3. Daily Scrum;<br />
 *Reunião diária para alinhamento do time.*
 4. Sprint Review;<br />
-*Apresentação aos interssados do que já foi desenvolvido dentro das sprints.*
+*Apresentação aos interssados do que já foi desenvolvido dentro das sprints.*<br />
+<img src="https://i.imgur.com/MAZUlvb.png" width="700" heigh="500">
+
 5. Sprint Retrospective;<br />
-*Reunião para a discussão do que precisa ser melhorado ou removido.*
+*Reunião para a discussão do que precisa ser melhorado ou removido.*<br />
+<img src="https://i.imgur.com/ZTu3NyF.png" width="700" heigh="500">
 
 ### Artefatos
 
@@ -110,12 +115,14 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 *Time de desenvolvedores.*
 
 ## Daily Scrum (Reunião)
-![Reunião Scrum](https://i.imgur.com/g2aBDVh.jpeg)
+
+<img src="https://i.imgur.com/g2aBDVh.jpeg" width="400" heigh="400">
 
 # Kanban
 *Um pra cada indivíduo.*
 
-![Processo Kanban](https://artia.com/wp-content/uploads/2019/01/2-kanban-fazer-fazendo-feito.png)
+<img src="https://artia.com/wp-content/uploads/2019/01/2-kanban-fazer-fazendo-feito.png" width="700" heigh="500">
+
 
 1. Backlog;<br />
 *Basicamente idêntico a uma Sprint, as ideias do projeto.*
@@ -145,13 +152,129 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 4. Priorização;
 5. Facilidade no fluxo de trabalho;
 
+
 # Lógica de programação
-*Computador não recebe ações a não ser que for por meios lógicos*
+*Computador não recebe ações a não ser que for por meios lógicos.*
 
-### FLuxograma
-*Um fluxograma é um diagrama que descreve um processo, sistema ou algoritmo de computador*
+## FLuxograma
+*Um fluxograma é um diagrama que descreve um processo, sistema ou algoritmo de computador.*
 
-![Exemplo de Fluxograma](https://ferramentasdaqualidade.org/wp-content/uploads/2016/11/Capturar_2016_12_23_14_15_52_123.png)
+<img src="https://ferramentasdaqualidade.org/wp-content/uploads/2016/11/Capturar_2016_12_23_14_15_52_123.png" width="400" heigh="300">
+
+## Linguagens:
+*Por exemplo, SQL e PYTHON*
+
+### Interpretadas:
+* Não são feitas para serem traduzidas em linguagem de máquina.
+
+### Não interpretadas:
+*Por exemplo, C e Tortran*
+* Necessário serem compiladas para linguagem de máquina.
+**Um objeto compilado leva mais tempo para desenvolver, mas é mais rápido de ser executado.**
+
+## Fluxograma de resolução de um problema no mundo da programação:
+<img src="https://i.imgur.com/GwixYnk.png" width="400" heigh="300">
+
+## Mindset do programador:
+<img src="https://i.imgur.com/Sb0EPzO.png" width="400" height="300">
+
+## Divisão de programação:
+*Dados*, *Back-end*, *Front-end.*
+
+**Codar apenas após analisar o pedido com o cliente, identificando os dados e os resultados desejados.**<br />
+*Algoritmo é usado para resolver problemas já definidos.*
+
+### IDE:
+*Ambiente de desenvolvimento integrado **(editor de texto).***
+
+### Compilador:
+*Um compilador é um programa de sistema que traduz um programa descrito em uma linguagem de alto nível para um programa equivalente em código de máquina para um processador.*
+
+
+# Fases do algoritmo
+
+**INÍCIO**
+
+* Dados -> *Database*<br />
+* Processamento -> *Back-end*<br />
+* Apresentação / Impressão -> *Front-end*
+
+**FIM**
+
+### Sintaxe: 
+***Comando, ações e valores.***
+
+**Comentários em programação:**<br />
+*Não é necessário explicar tudo do código detalhadamente, apenas o necessário e o que não é fácil de lembrar.*
+
+#
+
+## Garbage collector
+*(não utilizado mais)*
+
+* Função utilizada para limpar a memória do sistema.
+
+* Só utilizado caso o banco de dados for enorme ou o processamento for gigante.
+
+#
+
+## Swap
+**(Fundamental)**
+
+* Utilizar armazenamento do sistema para liberar o processamento.
+
+# Variáveis, persistentes e constantes.
+
+## Variáveis:
+* Informações que serão inseridas no meio do processo após a inicialização. *(entrada de dados dinâmica)*;
+* Podem virar informações persistentes caso enviadas ao banco de dados.
+
+## Persistentes:
+* Banco de dados *"Planilhas"*;
+* Informação que entra e fica guardada pra sempre;
+* Recupera mesmo com o app fechado.
+
+## Constantes:
+**Fixos**
+* São aquelas que o valor é atribuído dentro do código;
+* Fazem parte do código, sendo definidas por ele, sem banco de dados;
+* Não mudam em momento algum.
+
+# Leitura de dados
+<img src="https://i.imgur.com/I1LEsNE.png" width="300" height="300">
+
+## Models
+* Máscara feitas em cima do banco de dados;
+* Transforma os dados persistentes em uma variável, em forma de objeto
+
+## Identação
+* Funções que serão executadas em sequência até não houver mais.
+
+## Teste de mesa:
+* Fazer o programa no papel.
+
+#
+
+* Planejamento é muito importante no mundo da programação.
+* Controlar a ansiedade.
+
+## Variável com variáveis dentro:
+**Vetor**
+
+### Vetores:
+* As variáveis são com dados homogêneos.
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Banco de dados do inpe para uma boa pesquisa de dados.**
 

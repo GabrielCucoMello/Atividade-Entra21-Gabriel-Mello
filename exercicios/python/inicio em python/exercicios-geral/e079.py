@@ -3,8 +3,10 @@ menor_20 = [' ', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito
 
 dezenas = [' ', ' ', 'vinte', 'trinta', 'quarenta',
            'cinquenta', 'sessenta', 'setenta', 'oitenta', 'noventa']
-
-numero = int(input('Digite um número para ser transcrito em extenso: '))
+try:
+    numero = int(input('Digite um número para ser transcrito em extenso: '))
+except ValueError:
+    print('Valor digitado não é um número')
 try:
     if numero == 100:
         print('cem')
