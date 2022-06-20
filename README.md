@@ -264,25 +264,19 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 ### Vetores:
 * As variáveis são com dados homogêneos.
 
-
-
-
-
-
-
-
-
-
-
-
-
 **Banco de dados do inpe para uma boa pesquisa de dados.**
 
 [Banco de dados do Inpe](http://bancodedados.cptec.inpe.br/)
 
 **Exercícios feitos em saula de aula**
 
+# Exercícios
+
+## Exercícios adicionais
+
 [Exercício de Lógica](exercicios\lógica-comer-pizza.md)
+
+## Exercícios Portugol
 
 [Exercício 001 Portugol](exercicios\portugol\exercicio-001.portugol)<br/>
 [Exercício 001b Portugol](exercicios\portugol\exercicio-001b.portugol)
@@ -310,4 +304,12 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 
 [Exercício 010 Portugol](exercicios\portugol\exercicio-010.portugol)
 
-<!--'em breve' passar conteúdo do caderno pro readme-->
+## Exercícios Python
+
+[Início em python](exercicios\python\inicio_em_python)
+
+[Início em orientação a objetos](exercicios\python\inicio_em_python\1-inicio_em_orientacao_a_objetos)
+
+[Exercícios em python](exercicios\python\inicio_em_python\exercicios-geral)
+
+[Primeiro contato com pandas](exercicios\python\pandas)
