@@ -39,12 +39,13 @@ morse = Morse()
 escolha = int(input(
     'Caso queira codificar um código morse, digite "1", caso queira decodificar, digite "2": '))
 
-if escolha == 1:
-    texto_in_cod = input('Digite um texto para ser convertido em Código Morse: ')
-    codigo = morse.codificar(texto_in_cod)
-    print('Codigo morse codificado: {0}'.format(codigo))
+match escolha:
+    case 1:
+        texto_in_cod = input('Digite um texto para ser convertido em Código Morse: ')
+        codigo = morse.codificar(texto_in_cod)
+        print('Codigo morse codificado: {0}'.format(codigo))
 
-if escolha == 2:
-    texto_in_dec = input('Digite um texto para ser decodificado de Código Morse: ')
-    codigo_decod = morse.decodificar(texto_in_dec)
-    print('Texto decodificado: {0}'.format(codigo_decod))
+    case 2:
+        texto_in_dec = input('Digite um texto para ser decodificado de Código Morse: ')
+        codigo_decod = morse.decodificar(texto_in_dec)
+        print('Texto decodificado: {0}'.format(codigo_decod))
