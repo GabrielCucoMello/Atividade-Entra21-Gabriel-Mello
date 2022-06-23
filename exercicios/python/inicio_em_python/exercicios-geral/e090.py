@@ -1,8 +1,7 @@
 numeros = []
 
 num = input('Digite alguns números separados por vírgula: ')
-numeros.append(sorted(num.split(',')))
+numeros = [int(val) for val in num.split(',')]
 
 print('Aqui estão os números digitados sortidos: ')
-print(numeros)
-
+print(sorted(numeros))
