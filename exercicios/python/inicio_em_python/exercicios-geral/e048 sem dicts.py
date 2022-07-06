@@ -7,7 +7,7 @@ questao1 = input(
     'C) 1993\n'
     'D) 1833\n'
     'Digite a resposta: '
-    )
+    ).upper()
 if (questao1 == 'B'):
     print('Questão CERTA')
 else:
@@ -22,7 +22,7 @@ questao2 = input(
     'C) 1994 \n'
     'D) 1989 \n'
     'Digite a resposta: '
-)
+).upper()
 if (questao2 == 'C'):
     print('Questão CERTA')
 else:
@@ -37,7 +37,7 @@ questao3 = input(
     'C) PHP \n'
     'D) Python \n'
     'Digite a resposta: '
-)
+).upper()
 if (questao3 == 'D'):
     print('Questão CERTA')
 else:
