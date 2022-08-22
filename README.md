@@ -264,6 +264,8 @@ Uma série de empresas que podem ser encontradas na área de Investidores no sit
 ### Vetores:
 * As variáveis são com dados homogêneos.
 
+## Iniciação no Projeto Final (TCC) na primeira semana de agosto.
+
 **Banco de dados do inpe para uma boa pesquisa de dados.**
 
 [Banco de dados do Inpe](http://bancodedados.cptec.inpe.br/)
