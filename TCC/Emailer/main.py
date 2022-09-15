@@ -1,44 +1,35 @@
 import smtplib, ssl
+import locale
+from datetime import datetime
 from email.mime.text import MIMEText
+from src.database_connect import chuva_hoje, chance_chuva_hoje
+from src.local_settings import senha
+from src.clientes import clientes_final, consta_feriado, dia_semana
+from src.funcionarios import funcionarios_final
 
-chuva  = 10
-funcionarios_final = 0
-funcionarios_normal = 600
-funcionarios_chuva = 0
-funcionarios_feriado = 0
-feriado = 0
-consta_feriado = []
-feriado_final = ''
+locale.setlocale(locale.LC_TIME, 'pt_BR.utf8')
+data_hoje = datetime.now()
+data_format = data_hoje.strftime('%d de %B de %Y')
 
-# ^ variáveis para a predição
-
-if chuva >= 5:
-    funcionarios_chuva = funcionarios_normal * 0.5
-elif feriado == 1:
-    funcionarios_feriado = funcionarios_chuva * 2
-    consta_feriado.append('Sim')
-if feriado == 0:
-    consta_feriado.append('Não')
-
-if funcionarios_chuva > 0:
-    funcionarios_final = funcionarios_chuva
-elif funcionarios_feriado > 0:
-    funcionarios_final = funcionarios_feriado
+if dia_semana == 6 or dia_semana == 7:
+    final_de_semana = 'Sim'
 else:
-    funcionarios_final = funcionarios_normal
-
-# ^ predição de funcionários
+    final_de_semana = 'Não'
 
 port = 465 # porta do servidor que envia emails
 smtp_server = 'smtp.gmail.com' # conector pra enviar email
 sender = 'cucomellocm@gmail.com' # email de quem vai enviar
 receiver = 'gabreelzocm@gmail.com'# email de quem vai receber
-password = input('Digite sua senha gerada do google: ') # input da senha do google
+password = senha # senha do google
 
 msg = MIMEText(f'''
-    Milímetros de chuva esperados: {chuva};
-    O dia é um feriado? {feriado_final.join(consta_feriado)};
-    Funcionarios esperados pro dia: {funcionarios_final}. 
+Dia de hoje: {data_format};
+Chance de chuva: {chance_chuva_hoje};
+Milímetros de chuva esperados: {chuva_hoje};
+Hoje é um final de semana? {final_de_semana};
+Hoje tem algum feriado? {consta_feriado};
+Clientes esperados para o dia: {clientes_final};
+Funcionarios esperados para o dia {int(funcionarios_final)}.
 ''') # Conteúdo do email
 msg['Subject'] = 'Previsão do tempo para este dia e os dias seguintes' # Assunto do email
 msg['From'] = 'cucomellocm@gmail.com'
