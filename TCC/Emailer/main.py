@@ -1,3 +1,4 @@
+from email.mime.multipart import MIMEMultipart
 import smtplib, ssl
 import locale
 from datetime import datetime
@@ -22,15 +23,26 @@ sender = 'cucomellocm@gmail.com' # email de quem vai enviar
 receiver = 'gabreelzocm@gmail.com'# email de quem vai receber
 password = senha # senha do google
 
-msg = MIMEText(f'''
-Dia de hoje: {data_format};
-Chance de chuva: {chance_chuva_hoje};
-Milímetros de chuva esperados: {chuva_hoje};
-Hoje é um final de semana? {final_de_semana};
-Hoje tem algum feriado? {consta_feriado};
-Clientes esperados para o dia: {clientes_final};
-Funcionarios esperados para o dia {int(funcionarios_final)}.
+msg = MIMEMultipart('alternative')
+
+html = (f'''\
+<html>
+    <head></head>
+    <body>
+    <h2> Previsão de Clientes e Funcionários para o dia de hoje: {data_format} </h2>
+    <p> Chance de chuva: {chance_chuva_hoje}; </p>
+    <p> Milímetros de chuva esperados: {chuva_hoje}; </p>
+    <p> Hoje é um final de semana? {final_de_semana}; </p>
+    <p> Hoje tem algum feriado? {consta_feriado}; </p>
+    <p> Clientes esperados para o dia: {clientes_final}; </p>
+    <p> Funcionarios esperados para o dia {int(funcionarios_final)}. </p>
+    </body>
+</html>
 ''') # Conteúdo do email
+
+parte1 = MIMEText(html, 'html')
+
+msg.attach(parte1)
 msg['Subject'] = 'Previsão do tempo para este dia e os dias seguintes' # Assunto do email
 msg['From'] = 'cucomellocm@gmail.com'
 msg['To'] = 'gabreelzocm@gmail.com'
